@@ -1,0 +1,6 @@
+framework module Pods_TQDemo {
+  umbrella header "Pods-TQDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

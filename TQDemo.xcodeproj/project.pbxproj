@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6FB05A7F00F701ABD0EDDC62 /* Pods_TQDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7134B4948219F6A52CFBF4F6 /* Pods_TQDemo.framework */; };
 		DCE56DC7218FD5C1004A2776 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE56DC6218FD5C1004A2776 /* AppDelegate.m */; };
 		DCE56DCA218FD5C1004A2776 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE56DC9218FD5C1004A2776 /* ViewController.m */; };
 		DCE56DCD218FD5C1004A2776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE56DCB218FD5C1004A2776 /* Main.storyboard */; };
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		334F1E4DAB0AFD5E7C54AF61 /* Pods-TQDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TQDemo/Pods-TQDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7134B4948219F6A52CFBF4F6 /* Pods_TQDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TQDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A3AD407A92262264DB6067 /* Pods-TQDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TQDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TQDemo/Pods-TQDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		DCE56DC2218FD5C0004A2776 /* TQDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TQDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE56DC5218FD5C1004A2776 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DCE56DC6218FD5C1004A2776 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FB05A7F00F701ABD0EDDC62 /* Pods_TQDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D4F1D046A8AF4AF70497A7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7134B4948219F6A52CFBF4F6 /* Pods_TQDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FD5171739E4632373C16E71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2A3AD407A92262264DB6067 /* Pods-TQDemo.debug.xcconfig */,
+				334F1E4DAB0AFD5E7C54AF61 /* Pods-TQDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		DCE56DB9218FD5C0004A2776 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				DCE56DDD218FD5C3004A2776 /* TQDemoTests */,
 				DCE56DE8218FD5C3004A2776 /* TQDemoUITests */,
 				DCE56DC3218FD5C0004A2776 /* Products */,
+				8FD5171739E4632373C16E71 /* Pods */,
+				5D4F1D046A8AF4AF70497A7F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DCE56DEE218FD5C3004A2776 /* Build configuration list for PBXNativeTarget "TQDemo" */;
 			buildPhases = (
+				3394CF13C8DFA005A8E02819 /* [CP] Check Pods Manifest.lock */,
 				DCE56DBE218FD5C0004A2776 /* Sources */,
 				DCE56DBF218FD5C0004A2776 /* Frameworks */,
 				DCE56DC0218FD5C0004A2776 /* Resources */,
+				DAB57F993295B728F761061C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +282,77 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3394CF13C8DFA005A8E02819 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TQDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAB57F993295B728F761061C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TQDemo/Pods-TQDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/CWLateralSlide/CWLateralSlide.framework",
+				"${BUILT_PRODUCTS_DIR}/DateTools/DateTools.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeBack/SwipeBack.framework",
+				"${BUILT_PRODUCTS_DIR}/TQKit/TQKit.framework",
+				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
+				"${BUILT_PRODUCTS_DIR}/UITableView+FDTemplateLayoutCell/UITableView_FDTemplateLayoutCell.framework",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
+				"${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+				"${BUILT_PRODUCTS_DIR}/YYWebImage/YYWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Zip/Zip.framework",
+				"${BUILT_PRODUCTS_DIR}/iOSDFULibrary/iOSDFULibrary.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CWLateralSlide.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DateTools.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeBack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TQKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITableView_FDTemplateLayoutCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Zip.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOSDFULibrary.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TQDemo/Pods-TQDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DCE56DBE218FD5C0004A2776 /* Sources */ = {
@@ -433,6 +530,7 @@
 		};
 		DCE56DEF218FD5C3004A2776 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2A3AD407A92262264DB6067 /* Pods-TQDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +548,7 @@
 		};
 		DCE56DF0218FD5C3004A2776 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 334F1E4DAB0AFD5E7C54AF61 /* Pods-TQDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

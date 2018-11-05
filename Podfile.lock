@@ -1,0 +1,273 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CWLateralSlide (1.6.3)
+  - DateTools (2.0.0)
+  - iOSDFULibrary (4.2.1):
+    - Zip (~> 1.0)
+  - IQKeyboardManager (6.2.0)
+  - JCore (1.1.9)
+  - JPush (3.0.7):
+    - JCore (~> 1.1.6)
+  - Masonry (1.1.0)
+  - MJRefresh (3.1.15.7)
+  - SVProgressHUD (2.1.2)
+  - SwipeBack (1.1.1)
+  - TQKit (2.0.5):
+    - TQKit/Category (= 2.0.5)
+    - TQKit/Component (= 2.0.5)
+    - TQKit/Core (= 2.0.5)
+    - TQKit/Macros (= 2.0.5)
+    - TQKit/Utils (= 2.0.5)
+  - TQKit/Category (2.0.5):
+    - TQKit/Category/Foundation (= 2.0.5)
+    - TQKit/Category/Quartz (= 2.0.5)
+    - TQKit/Category/UIKit (= 2.0.5)
+    - TQKit/Category/YYUtils (= 2.0.5)
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/Foundation (2.0.5):
+    - TQKit/Category/Foundation/NSData (= 2.0.5)
+    - TQKit/Category/Foundation/NSDate (= 2.0.5)
+    - TQKit/Category/Foundation/NSDictionary (= 2.0.5)
+    - TQKit/Category/Foundation/NSNumber (= 2.0.5)
+    - TQKit/Category/Foundation/NSObject (= 2.0.5)
+    - TQKit/Category/Foundation/NSString (= 2.0.5)
+    - TQKit/Category/Foundation/NSTimer (= 2.0.5)
+    - TQKit/Category/Foundation/NSUserDefaults (= 2.0.5)
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/Foundation/NSData (2.0.5):
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/Foundation/NSDate (2.0.5):
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/Foundation/NSDictionary (2.0.5):
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/Foundation/NSNumber (2.0.5):
+    - TQKit/Category/Foundation/NSData
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/Foundation/NSObject (2.0.5):
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/Foundation/NSString (2.0.5):
+    - TQKit/Category/Foundation/NSNumber
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/Foundation/NSTimer (2.0.5):
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/Foundation/NSUserDefaults (2.0.5):
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/Quartz (2.0.5):
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/UIKit (2.0.5):
+    - TQKit/Category/UIKit/UIApplication (= 2.0.5)
+    - TQKit/Category/UIKit/UIBarButtonItem (= 2.0.5)
+    - TQKit/Category/UIKit/UIBezierPath (= 2.0.5)
+    - TQKit/Category/UIKit/UIButton (= 2.0.5)
+    - TQKit/Category/UIKit/UIColor (= 2.0.5)
+    - TQKit/Category/UIKit/UIControl (= 2.0.5)
+    - TQKit/Category/UIKit/UIDevice (= 2.0.5)
+    - TQKit/Category/UIKit/UIFont (= 2.0.5)
+    - TQKit/Category/UIKit/UIGesture (= 2.0.5)
+    - TQKit/Category/UIKit/UIImage (= 2.0.5)
+    - TQKit/Category/UIKit/UIImageView (= 2.0.5)
+    - TQKit/Category/UIKit/UILabel (= 2.0.5)
+    - TQKit/Category/UIKit/UINavigationBar (= 2.0.5)
+    - TQKit/Category/UIKit/UINavigationController (= 2.0.5)
+    - TQKit/Category/UIKit/UIScrollView (= 2.0.5)
+    - TQKit/Category/UIKit/UITableView (= 2.0.5)
+    - TQKit/Category/UIKit/UITextField (= 2.0.5)
+    - TQKit/Category/UIKit/UITextView (= 2.0.5)
+    - TQKit/Category/UIKit/UIView (= 2.0.5)
+    - TQKit/Category/UIKit/UIViewController (= 2.0.5)
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/UIKit/UIApplication (2.0.5):
+    - TQKit/Category/UIKit/UIDevice
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/UIKit/UIBarButtonItem (2.0.5):
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/UIKit/UIBezierPath (2.0.5):
+    - TQKit/Category/UIKit/UIFont
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/UIKit/UIButton (2.0.5):
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/UIKit/UIColor (2.0.5):
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/UIKit/UIControl (2.0.5):
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/UIKit/UIDevice (2.0.5):
+    - TQKit/Category/Foundation/NSString
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/UIKit/UIFont (2.0.5):
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/UIKit/UIGesture (2.0.5):
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/UIKit/UIImage (2.0.5):
+    - TQKit/Category/YYUtils
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/UIKit/UIImageView (2.0.5):
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/UIKit/UILabel (2.0.5):
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/UIKit/UINavigationBar (2.0.5):
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/UIKit/UINavigationController (2.0.5):
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/UIKit/UIScrollView (2.0.5):
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/UIKit/UITableView (2.0.5):
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/UIKit/UITextField (2.0.5):
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/UIKit/UITextView (2.0.5):
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/UIKit/UIView (2.0.5):
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/UIKit/UIViewController (2.0.5):
+    - YYCache (~> 1.0.4)
+  - TQKit/Category/YYUtils (2.0.5):
+    - TQKit/Category/UIKit/UIView
+    - YYCache (~> 1.0.4)
+  - TQKit/Component (2.0.5):
+    - TQKit/Component/TTBanner (= 2.0.5)
+    - TQKit/Component/TTQRCodeScan (= 2.0.5)
+  - TQKit/Component/TTBanner (2.0.5)
+  - TQKit/Component/TTQRCodeScan (2.0.5)
+  - TQKit/Core (2.0.5):
+    - AFNetworking (~> 3.1.0)
+    - TQKit/Core/Action (= 2.0.5)
+    - TQKit/Core/Service (= 2.0.5)
+    - TQKit/Core/TTMediator (= 2.0.5)
+  - TQKit/Core/Action (2.0.5):
+    - AFNetworking (~> 3.1.0)
+    - TQKit/Core/Action/Actions (= 2.0.5)
+    - TQKit/Core/Action/Constants (= 2.0.5)
+    - TQKit/Core/Action/Reachability (= 2.0.5)
+  - TQKit/Core/Action/Actions (2.0.5):
+    - AFNetworking (~> 3.1.0)
+    - TQKit/Core/Action/Reachability
+  - TQKit/Core/Action/Constants (2.0.5):
+    - AFNetworking (~> 3.1.0)
+  - TQKit/Core/Action/Reachability (2.0.5):
+    - AFNetworking (~> 3.1.0)
+    - TQKit/Utils
+  - TQKit/Core/Service (2.0.5):
+    - AFNetworking (~> 3.1.0)
+    - TQKit/Core/Action
+  - TQKit/Core/TTMediator (2.0.5):
+    - AFNetworking (~> 3.1.0)
+    - TQKit/Category/Foundation/NSString
+  - TQKit/Macros (2.0.5):
+    - TQKit/Category
+  - TQKit/Utils (2.0.5):
+    - TQKit/Macros
+    - TQKit/Utils/AppInfoUtil (= 2.0.5)
+    - TQKit/Utils/TTAlertUtil (= 2.0.5)
+    - TQKit/Utils/TTProgressHUD (= 2.0.5)
+    - TQKit/Utils/TTQRCodeUtil (= 2.0.5)
+    - TQKit/Utils/TTTableViewUtil (= 2.0.5)
+    - TQKit/Utils/UserInfoUtil (= 2.0.5)
+  - TQKit/Utils/AppInfoUtil (2.0.5):
+    - AFNetworking (~> 3.1.0)
+    - TQKit/Macros
+  - TQKit/Utils/TTAlertUtil (2.0.5):
+    - TQKit/Category/Foundation/NSString
+    - TQKit/Macros
+  - TQKit/Utils/TTProgressHUD (2.0.5):
+    - SVProgressHUD (~> 2.1.2)
+    - TQKit/Macros
+  - TQKit/Utils/TTQRCodeUtil (2.0.5):
+    - TQKit/Macros
+  - TQKit/Utils/TTTableViewUtil (2.0.5):
+    - TQKit/Macros
+  - TQKit/Utils/UserInfoUtil (2.0.5):
+    - TQKit/Core/Action/Constants
+    - TQKit/Macros
+  - TZImagePickerController (3.0.9)
+  - "UITableView+FDTemplateLayoutCell (1.6)"
+  - WechatOpenSDK (1.8.3)
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYModel (1.0.4)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+  - Zip (1.1.0)
+
+DEPENDENCIES:
+  - CWLateralSlide (~> 1.6.2)
+  - DateTools
+  - iOSDFULibrary
+  - IQKeyboardManager
+  - JPush (= 3.0.7)
+  - Masonry
+  - MJRefresh (~> 3.1.12)
+  - SwipeBack (~> 1.1.0)
+  - TQKit (~> 2.0.5)
+  - TZImagePickerController
+  - "UITableView+FDTemplateLayoutCell"
+  - WechatOpenSDK
+  - YYImage (~> 1.0.4)
+  - YYModel (~> 1.0.4)
+  - YYWebImage (~> 1.0.4)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - CWLateralSlide
+    - DateTools
+    - iOSDFULibrary
+    - IQKeyboardManager
+    - JCore
+    - JPush
+    - Masonry
+    - MJRefresh
+    - SVProgressHUD
+    - SwipeBack
+    - TZImagePickerController
+    - "UITableView+FDTemplateLayoutCell"
+    - WechatOpenSDK
+    - YYCache
+    - YYImage
+    - YYModel
+    - YYWebImage
+    - Zip
+  https://github.com/love0912/jasonSpecs.git:
+    - TQKit
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CWLateralSlide: 1b9a848873b93de45cfefe6389765b12aa70982c
+  DateTools: 933ac9c490f21f92127cf690ccd8c397e0126caf
+  iOSDFULibrary: 8b23a1ea806774c9b27da4d9ef5db292f67b422e
+  IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
+  JCore: 27598485098d0db99d2812cba048003457d08cfb
+  JPush: 111b79b8a0169ab8fd4c486dac3ed166ed69293e
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SwipeBack: d6759601b40da1f4161033feb30ab475d7d04322
+  TQKit: 3309cd2388498013c46e538a38d380bc79f9e668
+  TZImagePickerController: ea3e906af8caa7088f612ad673feb73cc6aa6bfc
+  "UITableView+FDTemplateLayoutCell": 5c949b4a5059c404b442926c0e80f81d10a2d66f
+  WechatOpenSDK: 3117412f8aafde4758cac1e8d20b93c67cafcfef
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+  Zip: 8877eede3dda76bcac281225c20e71c25270774c
+
+PODFILE CHECKSUM: d6cba07710e56ed2cb3824133958a293cb795778
+
+COCOAPODS: 1.5.2

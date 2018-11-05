@@ -1,0 +1,6 @@
+framework module TQKit {
+  umbrella header "TQKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
